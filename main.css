@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* ,::after, ::before{
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+:root{
+    --orange: #d69a37;
+    --dark-orange: #ff4a1a;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #fbfaec;
+    height: 110px;
+    width: 100%;
+}
+a{
+    color: var(--orange);
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: var(--dark-orange);
+}
+.top-center >a>img{
+    background-repeat: no-repeat center;
+    background-size: contain;
+    height: 100px;
+    width:315px;
+} 
+.top-left{
+    margin-left: 20px;
+    font-size: 11px;
+}
+.top-left a{
+    padding: 9px;
+}
+.top-right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 12px;  
+}
+.works{
+    display: flex;
+    flex-direction: column;
+}
+.works a{
+    margin: 3px
+}
+.socials {
+    padding: 5px;
+}
+.socials a{
+    justify-content: flex-end;
+    padding: 2px;
+}
+.bgimage{
+    background:  url("assets/YTN_HARRY_HUDSON_WIDE.jpg") no-repeat center;
+    background-size: cover;
+    height:128vh;
+    width: 100%;
+}
